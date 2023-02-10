@@ -22,5 +22,6 @@ public class UrlController {
     public VisitUrl getCount(@PathVariable String username) {
         VisitUrl visit=urlService.getVisits(username);
         return visit;
+
     }
 }
